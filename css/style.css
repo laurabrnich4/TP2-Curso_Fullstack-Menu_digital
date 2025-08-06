@@ -39,7 +39,7 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 74vh;
+    height: 70vh;
     text-align: center;
     color: rgb(240, 237, 237);
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -72,22 +72,34 @@ img{
     width: 400px;
     height: 250px;
     border-radius: 10px;
+    border: white;
     margin: 5px;
+}
+
+.imagen:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgb(48, 15, 15);
 }
 
 p{
     margin: 10px;
 }
 
-.h2{
+.h3{
     font-size: 30px;
     text-decoration: underline;
     color: rgba(247, 231, 205, 0.973);
 }
 
-h3{
+.h33{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
+    margin-top: 15px;
+}
+
+.final{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-size: px; */
     margin-top: 15px;
 }
 
@@ -97,5 +109,9 @@ footer{
     text-align: center;
     color: rgb(221, 217, 217);
     background-color: rgb(197, 2, 2);
-    padding: 10px;
+    padding: 1px;  
 } 
+
+footer a{
+    color: rgb(217, 221, 221);
+}
